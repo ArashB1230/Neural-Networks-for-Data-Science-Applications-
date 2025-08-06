@@ -2,14 +2,14 @@
 This directory houses my final project in the Neural Networks for Data Science Applications course.
 
 
-# 🧠 Character-Level RNN with JAX – Text Generation from WikiText-2
+# Character-Level RNN with JAX – Text Generation from WikiText-2
 
 This project implements a Recurrent Neural Network (RNN) in **JAX** from scratch to perform **language modeling** and **text generation** on the WikiText-2 dataset.  
 I achieved full marks (15/15) on this project in the NNDS course.
 
 ---
 
-## 🔍 Project Description
+## Project Description
 
 The main goals of this project were:
 
@@ -24,14 +24,14 @@ The main goals of this project were:
 
 ---
 
-## 📦 Dataset
+## Dataset
 
 - **[WikiText-2 (raw)](https://huggingface.co/datasets/wikitext)**: a clean corpus of Wikipedia articles, suitable for training small language models.
 - Provided by 🤗 Hugging Face `datasets` library.
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - `jax`, `jax.numpy` – for all tensor operations and autodiff
 - `huggingface/datasets` – to load and preprocess WikiText-2
@@ -39,7 +39,7 @@ The main goals of this project were:
 
 ---
 
-## 🧠 Model Architecture
+## Model Architecture
 
 - **Embedding layer**: maps each word token to a dense vector
 - **RNN cell**: simple recurrent unit with:
@@ -50,7 +50,7 @@ The main goals of this project were:
 
 ---
 
-## 📈 Training
+## Training
 
 - Input: sequences of 10 words → model predicts the 11th
 - Training size limited to 10,000 samples due to memory
@@ -59,7 +59,7 @@ The main goals of this project were:
 
 ---
 
-## ✨ Text Generation
+## Text Generation
 
 Implemented two generation methods:
 
@@ -79,7 +79,7 @@ Implemented two generation methods:
 
 ---
 
-## 📊 Results
+## Results
 
 - ✅ Successfully trained an RNN from scratch in JAX
 - ✅ Tracked train and validation loss with clean convergence
@@ -90,7 +90,7 @@ Despite the limited training data and small embedding/hidden dimensions, the mod
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 1. Install dependencies:
 ```bash
